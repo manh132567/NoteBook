@@ -1,0 +1,58 @@
+.body
+{font-family: sans-serif;
+font-size: 15px;}
+
+#menu ul
+{background: #8AD385;
+width: 250px;
+padding: 0;
+list-style-type: none;
+text-align: left;}
+
+#menu li
+{width: auto;
+height: 40px;
+line-height: 40px;
+border-bottom: 1px solid #e8e8e8;
+padding: 0 1em;}
+
+#menu li a
+{
+  text-decoration: none;
+color: #333;
+font-weight: bold;
+display: block;
+}
+
+#menu li:hover
+{background: #CDE2CD;}
+
+@lineHeight:40px;
+@lineWidth:2px;
+@paperColor:white;
+@lineColor:blue;
+@textColor:black;
+@font:kunstler script;
+@textSize:82px;
+@textStyle:bold;
+
+
+.paper{
+  
+  height:800px;
+  width:100%;
+  
+  resize:none;
+  font-size: textSize;
+  color: textColor;
+  font-family: font;
+  font-Style: textStyle;
+  background-color: paperColor;
+  
+  background: repeating-linear-gradient(
+    180deg,
+
+  );
+   
+  
+}
